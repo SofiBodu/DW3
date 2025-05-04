@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  font-size: 2em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input.form-control, button.btn{
+  border-radius: 2em;
+}
+
+ul li.list-group-item{
+  margin-top: 1em;
+}
