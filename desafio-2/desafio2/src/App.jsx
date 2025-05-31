@@ -36,7 +36,7 @@ function App() {
             onClick={agregarTarea}>Agregar</button>
         </div>
 
-        <hr className="tect-white" />
+        <hr className="text-white" />
         <p>Tareas Pendientes:</p>
 
         <ul className="list-group">
@@ -52,6 +52,7 @@ function App() {
               className="btn btn-outline-dark" 
               onClick={() => borrarTarea(index)}
             >   
+            🗑
             </button>
           </li>
           ))}
